@@ -1,0 +1,85 @@
+body{
+  font-family: Lato, "Open Sans", sans-serif;
+}
+.container {
+  max-width: 1600px;
+  text-align: center;
+  margin: 0 auto;
+}
+.form {
+  border-color: #232C3F;;
+  padding: 30px 36px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    background-color: #ffeb3bb8;
+}
+
+.input {
+  height: 30px;
+  vertical-align: top;
+  width: 30%;
+}
+.link li{
+  list-style: none;
+  text-align: left;
+  padding-left: 15px;
+}
+.link a{
+  font-size: 1.3em;
+}
+.link a:hover, .link a:focus, .link a:visited{
+  color: orange;
+}
+a {
+  color: #232C3F;
+  text-decoration: none;
+}
+.fa-random, .fa-search{
+  background: #ffeb3b;
+}
+.fa-random{
+  padding: 10px 20px;
+}
+.fa-search{
+  padding: 12px 22px;
+}
+.fa-random:hover .btn-names, .fa-search:hover .btn-names{
+  display: inline-block;
+  font-size: 2em;
+  color: black;
+}
+.btn-names{
+  display: none;
+}
+button{
+  border: none;
+  outline: none;
+}
+.btns{
+  margin-top: 20px;
+}
+ul{
+  padding: 0;
+}
+.excerpts{
+  height: 150px;
+  overflow: scroll;
+  border: 2px solid #1f2758;
+  padding: 20px;
+  text-align: justify;
+}
+header{
+  text-align: center;
+}
+.randomize{
+  text-align: center;
+}
+
+
+

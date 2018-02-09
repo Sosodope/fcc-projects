@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Wikipedia Viewer</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+		<header class="container">
+			<h1>Wikipedia Viewer</h1>
+		</header>
+
+		<section class="container">
+			<img src="reading.png" alt="Reading">
+
+			<section>
+				<form class="form" id="form">
+					<input  type="text" class="input" id="search-string">
+					<div class="btns">	
+						<button for="search" class="search-button"><i class="fas fa-search"></i></button>
+					</div>
+				</form>
+			</section>
+
+			<section>
+				<div class="randomize">
+				<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="random-button"><i class="fas fa-random"></i></a>
+				</div>
+			</section>
+
+
+			<section class="links-container">
+			<ul id="links" class="link">
+			</ul>
+			</section>
+		</section>
+
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<script src="js/libs/jquery-3.3.1.min.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
