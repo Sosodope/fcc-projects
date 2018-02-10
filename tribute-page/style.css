@@ -1,0 +1,77 @@
+body {
+  font-family: "Biryani", sans-serif;
+}
+h1 {
+  font-size: 5em;
+}
+h3 {
+  font-size: 2em;
+}
+h1,
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+  text-align: left;
+}
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 25px;
+}
+#intro {
+  text-align: center;
+}
+nav {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  padding-right: 25px;
+}
+nav a {
+  text-decoration: none;
+  color: #061d54;
+}
+.links {
+  transition: all 0.3s ease-in-out;
+}
+.links:hover {
+  background: #f7ec45;
+  padding: 5px;
+  color: #000;
+}
+img {
+  border-radius: 25px;
+  border: 2px solid #3d3d3d;
+}
+#timeline p {
+  letter-spacing: 2px;
+}
+#sources {
+  background-color: #adbed1;
+  padding: 3px 5px;
+}
+#sources ul li {
+  list-style: none;
+}
+blockquote {
+  font-size: 1em;
+  font-weight: 600;
+  padding: 10px;
+  background-color: #ffbcbc;
+  border-left: 5px solid #adbed1;
+}
+cite {
+  font-weight: 900;
+}
+#tesla:hover,
+#tesla:focus {
+  border-top: 4px solid #f9f14f;
+  border-bottom: 4px solid #f9f14f;
+}
